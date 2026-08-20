@@ -1,3 +1,4 @@
+
 # AMR Deterministic State Machine
 
 This repository contains the solution for the high-level deterministic state machine for an Autonomous Mobile Robot (AMR). The FSM strictly orchestrates behavior, prioritizes critical events, and handles edge cases without any randomness or undefined behavior.
@@ -23,6 +24,7 @@ To run the unit tests and verify the state reachability, deterministic prioritiz
 ```bash
 python3 -m unittest test_fsm.py
 ```
+<img width="3463" height="909" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/0cbb199a-dc2f-4cae-ae6f-7c809a71439f" />
 
 ## Reviewer Notes
 To @miko.ai:
